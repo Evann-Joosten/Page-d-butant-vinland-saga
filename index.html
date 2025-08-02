@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinland Saga</title>
+
+  <!-- Police Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #3EB489;
+      font-family: 'Cinzel', serif;
+      padding: 20px;
+    }
+
+    h1 {
+      color: darkblue;
+      text-align: center;
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      color: midnightblue;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #955149;
+      text-align: center;
+    }
+
+    ol {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    li {
+      font-family: 'Cinzel', serif;
+      color: #FFB875;
+      font-size: 1.2rem;
+    }
+
+    figure {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+
+    img {
+      width: 100%;
+      max-width: 600px;
+      border: 4px solid #0099cc;
+      border-radius: 20px;
+      box-shadow: 4px 4px 15px rgba(0,0,0,0.3);
+      display: block;
+      margin: 0 auto;
+      transition: transform 0.3s;
+      height: auto;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      font-size: 16px;
+      padding: 10px;
+      box-sizing: border-box;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+      border-radius: 0 0 12px 12px;
+    }
+
+    figure:hover figcaption {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Vinland Saga</h1>
+
+  <p>Bonjour, voici une image de l'animé Vinland Saga !</p>
+
+  <figure>
+    <a href="https://www.youtube.com/watch?v=HmEt4s-BugA" target="_blank">
+      <img src="vinland-saga.jpg" alt="Image de Thorfinn">
+    </a>
+    <figcaption>Sur cette image nous pouvons voir le personnage principal, Thorfinn.</figcaption>
+  </figure>
+
+  <h2>Voici une liste de quelques personnages...</h2>
+
+  <ol>
+    <li>Thors</li>
+    <li>Thorfinn</li>
+    <li>Askelad</li>
+  </ol>
+</body>
+</html>
