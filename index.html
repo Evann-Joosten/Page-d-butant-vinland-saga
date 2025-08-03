@@ -28,9 +28,15 @@
     }
     
     h3 { 
-      color: #14667f;
       text-align: center;
       font-size: 2rem;
+      animation: colorChange 2s infinite;
+    }
+    
+    @keyframes colrChange {
+      0%    { color: red; }
+      50%   { color: orange; }
+      100%  { color: blue; }
     }
     
     h4 { 
